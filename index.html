@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <h1>Les experiences de Charlie</h1>
+
+    <div class="prenom">
+      <h4>Prénom</h4>
+      <input
+        class="input1"
+        type="text"
+        placeholder="Entrez votre nom"
+        id="input"
+      />
+      <button class="button" type="button" onclick="getValue()">Enter</button>
+    </div>
+    <div class="prenom" id="prenom"></div>
+    <h4>Calculette</h4>
+    <input
+      class="input"
+      type="number"
+      placeholder="Rentres un chiffre"
+      id="nombreUn"
+    />
+    <input
+      class="input"
+      type="number"
+      placeholder="Rentres un chiffre"
+      id="nombreDeux"
+    />
+    <button class="buttonNumber" onclick="getNumber()">
+      Additionne moi ça batard
+    </button>
+    <div id="resultat"></div>
+
+    <div class="boucle">
+      <h4>Combien t'en veux ?</h4>
+      <input
+        id="nombreCube"
+        type="number"
+        class="input"
+        placeholder="Combien en veux-tu ?"
+      />
+      <button class="buttonNumber" onclick="getCube()">Let's go !</button>
+
+      <div id="lecube" class="cube"></div>
+    </div>
+    <h4>Calculatrice</h4>
+    <div class="affichCalc">
+      <div class="calculette">
+        <div class="ecran"></div>
+
+        <div class="touche">
+          <button class="bouton">C</button>
+          <button class="bouton">(</button>
+          <button class="bouton">)</button>
+          <button class="bouton">/</button>
+          <button class="bouton">7</button>
+          <button class="bouton">8</button>
+          <button class="bouton">9</button>
+          <button class="bouton">*</button>
+          <button class="bouton">4</button>
+          <button class="bouton">5</button>
+          <button class="bouton">6</button>
+          <button class="bouton">-</button>
+          <button class="bouton">1</button>
+          <button class="bouton">2</button>
+          <button class="bouton">3</button>
+          <button class="bouton">+</button>
+          <button class="bouton">0</button>
+          <button class="bouton">,</button>
+          <button class="bouton">=</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+    <script src="./script2.js"></script>
+  </body>
+</html>
